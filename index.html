@@ -15,62 +15,72 @@
 
     <!-- JAVASCRIPT -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Smooth Scrolling -->
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
 </head>
 
 <body>
     <!-- NAVIGATION -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Navbar</a>
+            <a class="navbar-brand" href="#">Economic impact of video games.</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">Home</a>
+                        <a class="nav-link" aria-current="page" href="#home">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
+                        <a class="nav-link" href="#statistics">Statistics</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="#carousel-section">Slides</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
 
-
-  <!-- HERO SECTION with class "hero-section" -->
-<div class="px-4 py-5 mb-5 text-center hero-section">
-    <h1 class="display-5 fw-bold">Game Design's Economic Impact</h1>
-    <div class="col-lg-6 mx-auto">
-        <p class="lead mb-4">The gaming industry is one of the fastest growing industries in America yet it is often dismissed by people who consider it a fad or an unimportant industry to our country. This is simply not true and game design is an incredibly important industry for </p>
-        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+    <!-- HERO SECTION with class "hero-section" -->
+    <div id="home" class="px-4 py-5 mb-5 text-center hero-section">
+        <h1 class="display-5 fw-bold">Game Design's Economic Impact</h1>
+        <div class="col-lg-6 mx-auto">
+            <p class="lead mb-4">The gaming industry is one of the fastest growing industries in America yet it is often dismissed by people who consider it a fad or an unimportant industry to our country. This is simply not true and the video game industry is an incredibly important industry for America's economy. The video game industry has generated hundreds of thousands of jobs for American citizens and billions of dollars as well. And despite all of these impressive statistics people still often dismiss the industry as a whole. This is why this website is dedicated to showing why the gaming industry has a lot to offer. </p>
+            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+            </div>
         </div>
     </div>
-</div>
 
-  <!-- THREE COLUMNS -->
-  <div class="container text-center">
-    <div class="row">
-        <div class="col-sm-4 px-5 my-3">
-            <img src="img/revenue.png" class="img-fluid rounded-circle mb-3 feature" alt="Image 1">
-            <h5>$100B+ output yearly</h5>
-        </div>
-        <div class="col-sm-4 px-5 my-3">
-            <img src="img/job.png" class="img-fluid rounded-circle mb-3 feature" alt="Image 2">
-            <h5>350k+ workers employed in 2024</h5>
-        </div>
-        <div class="col-sm-4 px-5 my-3">
-            <img src="img/taxes.png" class="img-fluid rounded-circle mb-3 feature" alt="Image 3">
-            <h5>$14B+ contributed in taxes</h5>
+    <!-- THREE COLUMNS -->
+    <div id="statistics" class="container text-center">
+        <div class="row">
+            <div class="col-sm-4 px-5 my-3">
+                <img src="img/revenue.png" class="img-fluid rounded-circle mb-3 feature" alt="Image 1">
+                <h5>$100B+ output yearly</h5>
+            </div>
+            <div class="col-sm-4 px-5 my-3">
+                <img src="img/job.png" class="img-fluid rounded-circle mb-3 feature" alt="Image 2">
+                <h5>350k+ workers employed in 2024</h5>
+            </div>
+            <div class="col-sm-4 px-5 my-3">
+                <img src="img/taxes.png" class="img-fluid rounded-circle mb-3 feature" alt="Image 3">
+                <h5>$14B+ contributed in taxes</h5>
+            </div>
         </div>
     </div>
-</div>
+
     <!-- CAROUSEL AND TEXT SIDE-BY-SIDE -->
-    <div class="container py-5">
+    <div id="carousel-section" class="container py-5">
         <div class="row">
             <!-- Carousel: 2/3 of the grid -->
             <div class="col-12 col-md-8">
@@ -109,5 +119,32 @@
             </div>
         </div>
     </div>
+</body><div class="bg-dark text-white py-5 presentation" id="slides">
+    <div class="container">
+      <div class="row">
+        <div class="col-md py-5">
+          <h2 class="fw-bold">America and video games</h2>
+          <p>
+            The gaming industry has grown exponentially in the  decade due to a seemingly endless increase
+            in demand. Gaming is a beautiful industry because it has something for everyone no matter how niche
+            your intrest may be there really is a way to include everyone.
+          </p>
+          <p>
+            This inclisivity has led it to be an incredibly strong economic industry because of its mass appeal to 
+            many members of diffrent audiences.
+          </p>
+          <button type="button" class="btn btn-lg btn-dark btn-unique">
+              Button <i class="bi bi-chevron-right"></i>
+          </button>
+        </div>
+        <div class="col-md-8 py-5">
+          <iframe src="https://docs.google.com/presentation/d/1tJh3Kr3dC1BCbUhRLXBksa2ig05khbDVIeGv6DZP8Ds/edit#slide=id.g32a9291cd3b_0_7" frameborder="0" width="960" height="576" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</html>
+
 
   
